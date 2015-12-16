@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sockettest"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sockettest"/>
+    
+    <item
+        android:id="@+id/urltest"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/urltest"/>
+
+</menu>

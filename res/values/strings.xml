@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Valkyria</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="sockettest">SocketTest</string>
+    <string name="urltest">URLTest</string>
+    
+    <string name="hello_world">Hello Drawable!</string>
+    <string name="zmdao">正妹岛</string>
+    <string name="scale">尺寸</string>
+    <string name="alpha">透明</string>
+    <string name="translate">位置</string>
+    <string name="rotate">旋转</string>
+    
+    <string name="walk">走</string>
+    <string name="halt">停</string>
+    <string name="title_activity_dynamic_drawable">DynamicDrawableActivity</string>
+    <string name="title_activity_geometric">GeometricActivity</string>
+    <string name="title_activity_graph_effects">GraphEffectsActivity</string>
+    
+    <!-- OptionsMenu -->
+    <string name="graph_effects_om_bitmapshader">BitmapShader</string>
+    <string name="graph_effects_om_lineargradient">LinearGradient</string>
+    <string name="graph_effects_om_radialgradient">RadialGradient</string>
+    <string name="graph_effects_om_sweepgradient">SweepGradient</string>
+    <string name="graph_effects_om_composeshader">ComposeShader</string>
+    
+	<string name="title_activity_weather">WeatherActivity</string>
+	<string name="title_activity_gps">GPSActivity</string>
+	
+	<string name="my_location">我的坐标</string>
+	
+	<string name="start_proximity_alert">Start Proximity Alert</string>
+	<string name="target_location">39.81999514,116.50065963</string>
+	
+	<string name="get_coordinate">获取坐标</string>
+	
+	<string name="movingpoint">Moving Point</string>
+	
+	<string name="text_activity">Text Activity</string>
+	
+	<string name="plusgame_activity">Plus Game</string>
+	
+</resources>

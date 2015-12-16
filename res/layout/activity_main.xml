@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <!-- Tween动画 -->
+    <ImageView
+        android:id="@+id/zmdao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zmdao"
+        android:contentDescription="@string/zmdao" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scale" />
+        <Button
+            android:id="@+id/alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alpha" />
+        <Button
+            android:id="@+id/translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/translate" />
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rotate" />
+    </LinearLayout>
+    
+    <!-- frame动画 -->
+    <ImageView
+        android:id="@+id/framewalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@anim/framewalk"
+        android:contentDescription="@string/walk" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/walk" />
+        <Button
+            android:id="@+id/halt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/halt" />
+    </LinearLayout>
+    <Button 
+        android:id="@+id/dynamicdrawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_dynamic_drawable"/>
+    
+    <!-- 绘制几何图形 -->
+    <Button 
+        android:id="@+id/geometric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_geometric"/>
+    
+    <!-- 图形特效 -->
+    <Button 
+        android:id="@+id/grapheffects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_graph_effects"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- WebService 天气预报 -->
+	    <Button 
+	        android:id="@+id/weather"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/title_activity_weather"/>
+        
+    </LinearLayout>
+    
+    <!-- GPS -->
+    <Button 
+        android:id="@+id/gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_gps"/>
+    
+    <!-- Moving Point -->
+    <Button 
+        android:id="@+id/movingpoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/movingpoint"/>
+    
+    <Button 
+        android:id="@+id/textactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_activity"/>
+    
+    <!-- 加法游戏 -->
+    <Button 
+        android:id="@+id/plusgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plusgame_activity"/>
+
+</LinearLayout>
+</ScrollView>
